@@ -7,8 +7,7 @@ constexpr int N = 2000010;
 int n, m, Case;
 char s[N], str[N];
 int p[N];
-//求最大回文子串
-//p[i] 表示以i为中心的最大回文半径 
+
 int manacher() {
   int rt = 0, mid = 0;
   int res = 0;

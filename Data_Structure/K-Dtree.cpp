@@ -1,6 +1,3 @@
-
-// k 维 求 n个点对/最远点对，k远点对，k近点对 等(k不能很大) 
-
 /*---KD-Tree---*/
 template<class T>
 inline T sqr(T&x){return x*x;}
